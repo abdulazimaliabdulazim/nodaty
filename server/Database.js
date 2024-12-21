@@ -5,7 +5,6 @@ class Database {
   constructor() {
     // this.URL = "mongodb://127.0.0.1:27017/notaty";
     this.URL =
-      process.env.PORT ||
       "mongodb+srv://admin:admin123@cluster0.9b4we.mongodb.net/notaty?retryWrites=true&w=majority&appName=Cluster0";
   }
   connect() {
