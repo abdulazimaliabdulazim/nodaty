@@ -1,4 +1,11 @@
 {
+  "name": "notaty",
+  "version": "1.0.0",
+  "description": "A simple note-taking application using React",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js"
+},
   "dependencies": {
     "react": "^18.3.1"
   }
