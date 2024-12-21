@@ -55,7 +55,7 @@ app.delete("/notes/:id", (req, res) => {
     )
     .catch((err) => res.status(500).send(err));
 });
-const port = 3000;
+const port = DEPLOYMENT_NOT_FOUND || 3000;
 app.listen(port, () => {
   console.log(`Server has started on port ${port}`);
   db.connect();
